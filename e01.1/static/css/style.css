@@ -1,0 +1,8 @@
+html {
+    /* Tamaño mínimo y el actual */
+    min-width: 1050px;
+    width: 1200px;
+    /* Fuente de la letra y el tamaño de la misma */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
