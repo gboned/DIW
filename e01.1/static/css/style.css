@@ -55,3 +55,12 @@ html {
     /* Añado el borde blanco a la derecha de cada elemento */
     border-right: solid 2px white;
 }
+
+.pattern {
+    background-image: url("../img/pattern.jpg");
+    background-repeat: repeat;
+    height: 100px;
+    /* Le indico el tipo de borde y el tamaño que debe tener arriba y abajo */
+    border-style: dashed;
+    border-width: 1px 0px;
+}
