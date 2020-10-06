@@ -64,3 +64,13 @@ html {
     border-style: dashed;
     border-width: 1px 0px;
 }
+
+.centralImage img {
+    width: 100%;
+    height: 300px;
+    /* Hacer que la imagen ocupe todo el ancho disponible en el div */
+    object-fit: cover;
+    /* Para mover la imagen dentro del elemento */
+    object-position: 0% 50%;
+    border-bottom: dashed 1px;
+}
