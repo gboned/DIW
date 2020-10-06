@@ -26,3 +26,33 @@ html {
     color: #eeedef;
     border-bottom: solid black;
 }
+
+.menu {
+    /* Indico que la letra sea en negrita y su color */
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul {
+    height: 50px;
+    /* Elimino los puntos de viñeta de la lista */
+    list-style-type: none;
+    /* Quito el margen que aparece encima del menú */
+    margin: 0;
+    /* Elimino el exceso de espacio que había antes del primer elemento */
+    padding: inherit;
+}
+
+.menu ul li {
+    /* Barra de navegación situada de forma horizontal */
+    display: table-cell;
+    /* Indico el tamaño de la letra, y la posición de cada una de las palabras */
+    font-size: 16.9px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #9376ac;
+    /* Indico la altura de la línea */
+    line-height: 41px;
+    /* Añado el borde blanco a la derecha de cada elemento */
+    border-right: solid 2px white;
+}
