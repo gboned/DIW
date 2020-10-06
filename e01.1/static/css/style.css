@@ -8,3 +8,21 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
 }
+
+.header {
+    /* Altura del div y padding para centrar el texto */
+    height: 120px;
+    padding-left: 308px;
+    padding-top: 5px;
+    /* Detalles de la imagen de fondo, que el tamaño se adapte, no se repita, esté a la derecha
+        y todo el fondo del header tenga un color concreto */
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #200437;
+    /* El texto esté centrado, tenga un color blanco y que haya un borde inferior negro */
+    text-align: center;
+    color: #eeedef;
+    border-bottom: solid black;
+}
