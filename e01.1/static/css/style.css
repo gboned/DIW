@@ -34,7 +34,6 @@ html {
 }
 
 .menu ul {
-    height: 50px;
     /* Elimino los puntos de viñeta de la lista */
     list-style-type: none;
     /* Quito el margen que aparece encima del menú */
