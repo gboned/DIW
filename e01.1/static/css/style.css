@@ -65,6 +65,11 @@ html {
     border-width: 1px 0px;
 }
 
+.centralImage {
+    /* Tengo que añadir este margen para que no aparezca una línea blanca entre este div y el siguiente */
+    margin-bottom: -3px;
+}
+
 .centralImage img {
     width: 100%;
     height: 300px;
