@@ -154,3 +154,24 @@ html {
     /* Añado opacidad a las imágenes */
     opacity: 50%;
 }
+
+.footer {
+    width: 1034px;
+    color: white;
+    background-color: #210439;
+    height: 100px;
+    position: absolute;
+}
+
+.footer #copyright {
+    /* Indico la posición relativa para poder modificar la posición de los elementos */
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.footer #subject {
+    position: relative;
+    top: 74px;
+    left: 720px;
+}
