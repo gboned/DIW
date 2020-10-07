@@ -123,3 +123,34 @@ html {
     /* Hago que el texto de dentro de la tabla esté alineado al centro */
     text-align: center;
 }
+
+.images {
+    width: 1032px;
+    height: 300px;
+    border-style: solid;
+    border-width: 0px 1px;
+    border-bottom: dashed 1px;
+}
+
+.images figure {
+    /* Sitúo las imágenes como celdas de una tabla, para ordenarlas */
+    display: table-cell;
+    padding-top: 18px;
+}
+
+/* Añado un borde a las 3 primeras imágenes */
+.images figure:nth-child(-n+3) {
+    border-right: 1px solid black;
+}
+
+.images figcaption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.images img {
+    width: 255px;
+    /* Añado opacidad a las imágenes */
+    opacity: 50%;
+}
