@@ -79,3 +79,47 @@ html {
     object-position: 0% 50%;
     border-bottom: dashed 1px;
 }
+
+.grades {
+    height: 250px;
+    background-color: #dcdcdc;
+    border-bottom: dashed 1px;
+}
+
+.grades table {
+    width: 45%;
+    height: 67%;
+    border: 1px solid black;
+    /* Hago que las filas estén todas unidas, sin bordes entre ellas */
+    border-collapse: collapse;
+    /* Centro la tabla en la página */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grades caption {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+    /* Para centrar verticalmente la tabla */
+    margin: 18px;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.grades th {
+    border-bottom: 5px solid black;
+    background-color: #704c8f;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Añado propiedades en las filas que sean pares */
+.grades tr:nth-child(even) {
+    background-color: #808080;
+}
+
+.grades td {
+    /* Hago que el texto de dentro de la tabla esté alineado al centro */
+    text-align: center;
+}
