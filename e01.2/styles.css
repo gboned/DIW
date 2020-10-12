@@ -37,6 +37,12 @@ ul#menu li {
     background-color: black;
     color: white;
     font-size: 16px;
+    /* Le añado un padding para hacer más grandes los elementos */
+    padding: 5px;
+    /* Hago que los elementos del menú aparezcan uno al lado del otro */
+    display: inline;
+    /* Le añado un margen a la derecha a cada elemento para que se separen más */
+    margin-right: 12px;
 }
 
 div {
