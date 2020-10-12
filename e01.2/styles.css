@@ -18,6 +18,9 @@ header {
 
 header img {
     position: absolute;
+    /* Le añado un padding arriba y a la izquierda al logo */
+    padding-top: 28px;
+    padding-left: 50px;
 }
 
 ul#menu {
