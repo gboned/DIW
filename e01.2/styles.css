@@ -58,7 +58,7 @@ div {
     margin-left: 50px;
     margin-right: 100px;
     /* Añado una amplitud mínima para que no se descoloque el contenido al hacer pequeña la pantalla */
-    min-width: 604px;
+    min-width: 650px;
     /* Añado una altura máxima, para que al reducir página no se descoloque div */
     max-height: 360px;
 }
