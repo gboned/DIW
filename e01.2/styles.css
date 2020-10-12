@@ -50,6 +50,13 @@ ul#menu li {
 div {
     position: relative;
     border: 1px solid green;
+    /* Le añado una amplitud máxima y mínima para indicar tamaño máximo del div */
+    max-width: 950px;
+    /* Le añado un margen a la izquierda para alinearlo */
+    margin-left: 50px;
+    margin-right: 100px;
+    /* Añado una amplitud mínima para que no se descoloque el contenido al hacer pequeña la pantalla */
+    min-width: 604px;
 }
 
 div>h1 {
