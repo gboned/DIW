@@ -7,6 +7,13 @@ body {
 
 header {
     position: relative;
+    /* Le asigno una altura al header */
+    height: 128px;
+    /* Añado el color verde de fondo */
+    background-color: #9acd32;
+    /* Añado margen encima y abajo para separarlo del div del contenido */
+    margin-top: 25px;
+    margin-bottom: 70px;
 }
 
 header img {
