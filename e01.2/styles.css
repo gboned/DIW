@@ -14,6 +14,8 @@ header {
     /* Añado margen encima y abajo para separarlo del div del contenido */
     margin-top: 25px;
     margin-bottom: 70px;
+    /* Añado una amplitud mínima para que solo se mueva 'NEWS' al reducir página */
+    min-width: 740px;
 }
 
 header img {
