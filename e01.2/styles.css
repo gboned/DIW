@@ -25,6 +25,12 @@ header img {
 
 ul#menu {
     position: absolute;
+    /* Elimino las viñetas de los elementos del menú */
+    list-style: none;
+    /* Añado un margen a la izquierda para centrar el menú horizontalmente */
+    margin-left: 350px;
+    /* Añado un margen encima para centrar el menú verticalmente */
+    margin-top: 40px;
 }
 
 ul#menu li {
