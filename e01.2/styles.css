@@ -67,4 +67,11 @@ div>h1 {
     position: absolute;
     color: white;
     font-size: 2em;
+    /* Le añado un ancho mínimo al texto para que se reduzca al reducir página */
+    min-width: 10px;
+    /* Le añado una altura máxima para cuando se reduzca la página */
+    max-height: 87px;
+    /* Con left y bottom, posiciono el texto donde quiero */
+    left: 447px;
+    bottom: 31px;
 }
