@@ -75,3 +75,15 @@ div>h1 {
     left: 447px;
     bottom: 31px;
 }
+
+#scissors {
+    /* Hago que la imagen de las tijeras tenga una posición relativa */
+    position: relative;
+    /* Con bottom y right ajusto su posición a la necesaria */
+    bottom: 166px;
+    right: 72px;
+    /* Le añado una anchura máxima para que no se descoloque al redimensionar la página */
+    max-width: 266px;
+    /* La posiciono por debajo de la otra imagen */
+    z-index: -1;
+}
