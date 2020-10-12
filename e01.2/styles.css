@@ -50,6 +50,8 @@ ul#menu li {
 div {
     position: relative;
     border: 1px solid green;
+    /* Hago que el borde del div sea más ancho */
+    border-width: initial;
     /* Le añado una amplitud máxima y mínima para indicar tamaño máximo del div */
     max-width: 950px;
     /* Le añado un margen a la izquierda para alinearlo */
