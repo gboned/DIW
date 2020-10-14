@@ -94,14 +94,27 @@ CONTAINER C04
 /**
 CONTAINER C05
 **/
+.c05 {
+  /* Añado la propiedad de display flex  */
+  display: flex;
+  /* Sitúo elementos en el centro horizontalmente */
+  justify-content: center;
+  /* Sitúo elementos en el centro verticalmente */
+  align-items: center;
+}
 .c05 div {
   background-color: orangered;
   padding: 20px 40px;
   margin:3px;
 }
-  /********* ADD YOUR CODE  HERE **********/
-
-  /********* END OF YOUR CODE **********/
+.c05 div:nth-child(1) {
+  /* Hago más grande el elemento 1 */
+  flex-grow: 1;
+}
+.c05 div:nth-child(2) {
+  /* Hago más grande el elemento 2 */
+  flex-grow: 2;
+}
 
 
 /**
