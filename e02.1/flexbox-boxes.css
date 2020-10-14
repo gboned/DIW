@@ -39,13 +39,18 @@ CONTAINER C01
 CONTAINER C02
 **/
 .c02 {
-  /********* ADD YOUR CODE  HERE **********/
-
-  /********* END OF YOUR CODE **********/
+  /* Añado la propiedad de display flex  */
+  display: flex;
+  /* Hago que los items se ordenen en columna */
+  flex-direction: column;
+  /* Sitúo el contenido en el centro horizontalmente */
+  justify-content: center;
+  /* Sitúo el contenido en el centro verticalmente */
+  align-items: center;
   }
-  .c02 div {
-    background-color: orange;
-  }
+.c02 div {
+  background-color: orange;
+}
 
 
 /**
