@@ -23,9 +23,12 @@
 CONTAINER C01
 **/
 .c01 {
-/********* ADD YOUR CODE  HERE **********/
-
-/********* END OF YOUR CODE **********/
+  /* Añado la propiedad de display flex  */
+  display: flex;
+  /* Sitúo el contenido en el centro horizontalmente */
+  justify-content: center;
+  /* Sitúo el contenido en el centro verticalmente */
+  align-items: center;
 }
 .c01 div {
   background-color: red;
