@@ -129,6 +129,15 @@ CONTAINER C06
   padding: 20px 40px;
   margin:5px;
 }
-  /********* ADD YOUR CODE  HERE **********/
-
-  /********* END OF YOUR CODE **********/
+.c06 div:nth-child(1) {
+  /* Coloco el elemento que contiene el número 1 arriba en su contenedor */
+  align-self: flex-start;
+}
+.c06 div:nth-child(2) {
+  /* Coloco el elemento que contiene el número 2 debajo en su contenedor */
+  align-self: flex-end;
+}
+.c06 div:nth-child(4) {
+  /* Cambio el orden del elemento 4, para ponerlo delante del todo */
+  order: -3;
+}
