@@ -1,7 +1,13 @@
 .cards {
-    /*************  ADD YOUR CODE HERE ************/
-
-    /************** END OF YOUR CODE ***************/
+    /* Indico la propiedad para que sea flex */
+    display: flex;
+    /* Hago que las cartas se muestren en fila y agrupadas */
+    flex-flow: row wrap;
+    /* Indico el ancho máximo de la página para colocar correctamente las cartas */
+    width: 82%;
+    /* */
+    /* Hago que las cartas separen entre ellas */
+    justify-content: space-around;
 }
 
 .card {
