@@ -25,6 +25,10 @@
 
 .card .text {
     padding: 0 5px 5px;
+    /* Hago que se muestren como flex, en posición de columnas */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .card .text>button {
