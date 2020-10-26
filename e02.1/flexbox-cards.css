@@ -5,7 +5,6 @@
     flex-flow: row wrap;
     /* Indico el ancho máximo de la página para colocar correctamente las cartas */
     width: 82%;
-    /* */
     /* Hago que las cartas separen entre ellas */
     justify-content: space-around;
 }
