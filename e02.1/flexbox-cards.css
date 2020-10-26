@@ -19,9 +19,8 @@
 }
 
 .card img {
-    /*************  ADD YOUR CODE HERE ************/
-
-    /************** END OF YOUR CODE ***************/
+    /* Hago que el ancho sea heredado del ancho de los div */
+    width: inherit;
 }
 
 .card .text {
